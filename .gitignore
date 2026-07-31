@@ -1,0 +1,15 @@
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Arquivos locais
+*.log
+.env
+
+# Temporários
+*.tmp
+*.swp
