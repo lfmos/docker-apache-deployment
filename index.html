@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,7 +42,8 @@
         </ul>
       </nav>
 
-      <a class="header-status" href="https://github.com/lfmos/docker-apache-deployment" target="_blank" rel="noopener noreferrer">
+      <a class="header-status" href="https://github.com/lfmos/docker-apache-deployment" target="_blank"
+        rel="noopener noreferrer">
         <i></i>
         Repositório
       </a>
@@ -210,7 +214,14 @@
           <div class="architecture-track">
             <article class="architecture-node">
               <span>01</span>
-              <b>⌁</b>
+              <div class="architecture-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                  <path d="M3 8h18"></path>
+                  <circle cx="6" cy="6" r="0.5"></circle>
+                  <circle cx="8" cy="6" r="0.5"></circle>
+                </svg>
+              </div>
               <h3>Navegador</h3>
               <p>Solicita a aplicação local.</p>
               <code>localhost:8080</code>
@@ -223,7 +234,14 @@
 
             <article class="architecture-node">
               <span>02</span>
-              <b>↔</b>
+              <div class="architecture-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M7 7h11"></path>
+                  <path d="M15 4l3 3-3 3"></path>
+                  <path d="M17 17H6"></path>
+                  <path d="M9 14l-3 3 3 3"></path>
+                </svg>
+              </div>
               <h3>Port Mapping</h3>
               <p>Conecta a porta local à interna.</p>
               <code>8080 → 80</code>
@@ -236,7 +254,14 @@
 
             <article class="architecture-node node-active">
               <span>03</span>
-              <b>◫</b>
+              <div class="architecture-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <rect x="4" y="3" width="16" height="18" rx="2"></rect>
+                  <path d="M8 7h8"></path>
+                  <path d="M8 11h8"></path>
+                  <path d="M8 15h5"></path>
+                </svg>
+              </div>
               <h3>Apache</h3>
               <p>Processa e serve os arquivos.</p>
               <code>httpd:2.4</code>
@@ -249,7 +274,13 @@
 
             <article class="architecture-node">
               <span>04</span>
-              <b>⌘</b>
+              <div class="architecture-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M8 9l-3 3 3 3"></path>
+                  <path d="M16 9l3 3-3 3"></path>
+                  <path d="M14 6l-4 12"></path>
+                </svg>
+              </div>
               <h3>Website</h3>
               <p>HTML, CSS e JavaScript.</p>
               <code>./</code>

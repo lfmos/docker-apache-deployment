@@ -324,11 +324,30 @@
 }
 
 .architecture-node > b {
-  display: block;
+  display: none;
+}
+
+.architecture-icon {
+  width: 52px;
+  height: 52px;
   margin: 26px 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line-strong);
   color: var(--accent);
-  font-size: 2rem;
-  font-weight: 400;
+  flex-shrink: 0;
+}
+
+.architecture-icon svg {
+  width: 27px;
+  height: 27px;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .architecture-node h3 {
